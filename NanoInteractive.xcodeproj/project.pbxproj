@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D8B1FF361DCDA96D005CBF0A /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B1FF351DCDA96D005CBF0A /* InteractiveStory.swift */; };
+		D8D524201DDB5299007B4538 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D5241F1DDB5299007B4538 /* PageViewController.swift */; };
 		D8FAFDDC1DC86DD4001B7ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FAFDDB1DC86DD4001B7ABB /* AppDelegate.swift */; };
 		D8FAFDDE1DC86DD4001B7ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FAFDDD1DC86DD4001B7ABB /* ViewController.swift */; };
 		D8FAFDE11DC86DD4001B7ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FAFDDF1DC86DD4001B7ABB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		D8B1FF351DCDA96D005CBF0A /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
+		D8D5241F1DDB5299007B4538 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		D8FAFDD81DC86DD4001B7ABB /* NanoInteractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoInteractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FAFDDB1DC86DD4001B7ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8FAFDDD1DC86DD4001B7ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D8FAFDE41DC86DD4001B7ABB /* LaunchScreen.storyboard */,
 				D8FAFDE71DC86DD4001B7ABB /* Info.plist */,
 				D8B1FF351DCDA96D005CBF0A /* InteractiveStory.swift */,
+				D8D5241F1DDB5299007B4538 /* PageViewController.swift */,
 			);
 			path = NanoInteractive;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				D8B1FF361DCDA96D005CBF0A /* InteractiveStory.swift in Sources */,
 				D8FAFDDE1DC86DD4001B7ABB /* ViewController.swift in Sources */,
 				D8FAFDDC1DC86DD4001B7ABB /* AppDelegate.swift in Sources */,
+				D8D524201DDB5299007B4538 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

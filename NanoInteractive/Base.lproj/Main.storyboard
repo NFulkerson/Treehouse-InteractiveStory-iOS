@@ -28,7 +28,7 @@
                                 <rect key="frame" x="133" y="589" width="108" height="30"/>
                                 <state key="normal" title="Start Adventure"/>
                                 <connections>
-                                    <segue destination="vmD-Tt-2Km" kind="show" id="jMC-QT-E4F"/>
+                                    <segue destination="vmD-Tt-2Km" kind="show" identifier="adventureStartedSegue" id="jMC-QT-E4F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Page View Controller-->
         <scene sceneID="RBo-n7-ECU">
             <objects>
-                <viewController id="vmD-Tt-2Km" sceneMemberID="viewController">
+                <viewController id="vmD-Tt-2Km" customClass="PageViewController" customModule="NanoInteractive" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DRa-q9-6ty"/>
                         <viewControllerLayoutGuide type="bottom" id="zXZ-ri-1Ma"/>
